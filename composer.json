@@ -1,0 +1,16 @@
+{
+    "require": {
+        "twig/twig": "~3.0",
+        "phpmailer/phpmailer": "^6.5",
+        "php-http/guzzle6-adapter": "^1.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "App\\": "App/"
+        }
+    },
+    "require-dev": {
+        "rector/rector": "^0.12.7"
+    }
+}
